@@ -369,6 +369,9 @@
     <ClCompile Include="..\..\mpf\size.c">
       <Filter>Source Files\mpf</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\mpf\sgn.c">
+      <Filter>Source Files\mpf</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\mpf\sqrt.c">
       <Filter>Source Files\mpf</Filter>
     </ClCompile>
@@ -487,6 +490,9 @@
       <Filter>Source Files\mpq</Filter>
     </ClCompile>
     <ClCompile Include="..\..\mpq\set_z.c">
+      <Filter>Source Files\mpq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mpq\sgn.c">
       <Filter>Source Files\mpq</Filter>
     </ClCompile>
     <ClCompile Include="..\..\mpq\swap.c">
@@ -834,6 +840,9 @@
     <ClCompile Include="..\..\mpz\nthroot.c">
       <Filter>Source Files\mpz</Filter>
     </ClCompile>
+   <ClCompile Include="..\..\mpz\odd_even.c">
+      <Filter>Source Files\mpz</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\mpz\oddfac_1.c">
       <Filter>Source Files\mpz</Filter>
     </ClCompile>
@@ -928,6 +937,9 @@
       <Filter>Source Files\mpz</Filter>
     </ClCompile>
     <ClCompile Include="..\..\mpz\setbit.c">
+      <Filter>Source Files\mpz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mpz\sgn.c">
       <Filter>Source Files\mpz</Filter>
     </ClCompile>
     <ClCompile Include="..\..\mpz\size.c">

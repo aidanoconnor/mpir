@@ -29,7 +29,7 @@ MA 02110-1301, USA. */
    want to demand <limits.h> or forcibly include it.  Check the expressions
    come out the same as <limits.h>.  */
 
-int
+int __cdecl
 main (int argc, char *argv[])
 {
   int  error = 0;

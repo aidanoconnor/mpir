@@ -583,7 +583,7 @@ tests_dbl_mant_bits (void)
 
 jmp_buf    tests_sigfpe_target;
 
-RETSIGTYPE
+RETSIGTYPE __cdecl
 tests_sigfpe_handler (int sig)
 {
   longjmp (tests_sigfpe_target, 1);

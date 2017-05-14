@@ -32,7 +32,7 @@ MA 02110-1301, USA. */
    LIMB_HIGHBIT_TO_MASK then the only symptom is likely to be failures in
    udiv_qrnnd_preinv, which would not be easy to diagnose.  */
 
-int
+int __cdecl
 main (void)
 {
   ASSERT_ALWAYS (LIMB_HIGHBIT_TO_MASK (0) == 0);

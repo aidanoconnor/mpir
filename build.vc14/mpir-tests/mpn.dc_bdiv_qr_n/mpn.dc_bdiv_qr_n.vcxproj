@@ -84,6 +84,7 @@ check_config $(Platform) $(Configuration) 14
       <PrecompiledHeader>
       </PrecompiledHeader>
       <CompileAs>Default</CompileAs>
+      <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
       <OutputFile>$(TestDir)$(OutDir)$(ProjectName).exe</OutputFile>
@@ -131,6 +132,7 @@ check_config $(Platform) $(Configuration) 14
       <PrecompiledHeader>
       </PrecompiledHeader>
       <CompileAs>Default</CompileAs>
+      <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
       <OutputFile>$(TestDir)$(OutDir)$(ProjectName).exe</OutputFile>

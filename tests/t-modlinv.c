@@ -66,7 +66,7 @@ all (void)
 }
 
 
-int
+int __cdecl
 main (int argc, char *argv[])
 {
   tests_start ();

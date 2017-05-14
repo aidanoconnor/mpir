@@ -107,7 +107,7 @@ check_random (void)
     gmp_randclear(rands);
 }
 
-int
+int __cdecl
 main (void)
 {
   tests_start ();

@@ -219,7 +219,7 @@ char *shrt_max_def = "not defined";
    This is a bit bizarre, but doesn't matter because GMP doesn't rely on any
    particular overflow behaviour for int or short, only for mp_limb_t.  */
 
-int
+int __cdecl
 main (int argc, char *argv[])
 {
   int  error = 0;

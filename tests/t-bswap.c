@@ -27,7 +27,7 @@ MA 02110-1301, USA. */
 #include "tests.h"
 
 
-int
+int __cdecl
 main (void)
 {
   mp_limb_t  src, want, got;

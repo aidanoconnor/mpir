@@ -202,3 +202,10 @@ gmp-mparam.h
 tune/sqr_basecase.c
 autoscript
 cdata
+
+
+/build.vc/output_params.bat
+/build.vc14/mpir-tests.VC.db
+/build.vc14/mpir.VC.VC.opendb
+/build.vc14/test-config.props
+/build.vc14/mpir.VC.db

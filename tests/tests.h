@@ -71,7 +71,7 @@ int tests_dbl_mant_bits __GMP_PROTO ((void));
   (signal (SIGFPE, tests_sigfpe_handler),       \
    setjmp (tests_sigfpe_target))
 
-RETSIGTYPE tests_sigfpe_handler __GMP_PROTO ((int));
+RETSIGTYPE __cdecl tests_sigfpe_handler __GMP_PROTO ((int));
 void tests_sigfpe_done __GMP_PROTO ((void));
 extern jmp_buf  tests_sigfpe_target;
 
