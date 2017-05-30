@@ -79,7 +79,6 @@ prebuild gc Win32 14
       <AdditionalIncludeDirectories>..\..\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;HAVE_CONFIG_H;MSC_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
     </Link>
@@ -100,7 +99,6 @@ prebuild gc Win32 14
       <AdditionalIncludeDirectories>..\..\</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;WIN32;HAVE_CONFIG_H;MSC_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
     </Link>
@@ -163,6 +161,7 @@ postbuild "$(TargetPath)" 14
     <ClCompile Include="..\..\assert.c" />
     <ClCompile Include="..\..\errno.c" />
     <ClCompile Include="..\..\extract-dbl.c" />
+    <ClCompile Include="..\..\flex.c" />
     <ClCompile Include="..\..\invalid.c" />
     <ClCompile Include="..\..\memory.c" />
     <ClCompile Include="..\..\mp_bpl.c" />
@@ -272,7 +271,6 @@ postbuild "$(TargetPath)" 14
     <ClCompile Include="..\..\mpf\set_str.c" />
     <ClCompile Include="..\..\mpf\set_ui.c" />
     <ClCompile Include="..\..\mpf\set_z.c" />
-    <ClCompile Include="..\..\mpf\sgn.c" />
     <ClCompile Include="..\..\mpf\size.c" />
     <ClCompile Include="..\..\mpf\sqrt.c" />
     <ClCompile Include="..\..\mpf\sqrt_ui.c" />
@@ -314,7 +312,6 @@ postbuild "$(TargetPath)" 14
     <ClCompile Include="..\..\mpq\set_str.c" />
     <ClCompile Include="..\..\mpq\set_ui.c" />
     <ClCompile Include="..\..\mpq\set_z.c" />
-    <ClCompile Include="..\..\mpq\sgn.c" />
     <ClCompile Include="..\..\mpq\swap.c" />
     <ClCompile Include="..\..\mpz\2fac_ui.c" />
     <ClCompile Include="..\..\mpz\abs.c" />
@@ -430,7 +427,6 @@ postbuild "$(TargetPath)" 14
     <ClCompile Include="..\..\mpz\next_prime_candidate.c" />
     <ClCompile Include="..\..\mpz\nextprime.c" />
     <ClCompile Include="..\..\mpz\nthroot.c" />
-    <ClCompile Include="..\..\mpz\odd_even.c" />
     <ClCompile Include="..\..\mpz\oddfac_1.c" />
     <ClCompile Include="..\..\mpz\out_raw.c" />
     <ClCompile Include="..\..\mpz\out_str.c" />
@@ -463,7 +459,6 @@ postbuild "$(TargetPath)" 14
     <ClCompile Include="..\..\mpz\set_ui.c" />
     <ClCompile Include="..\..\mpz\set_ux.c" />
     <ClCompile Include="..\..\mpz\setbit.c" />
-    <ClCompile Include="..\..\mpz\sgn.c" />
     <ClCompile Include="..\..\mpz\size.c" />
     <ClCompile Include="..\..\mpz\sizeinbase.c" />
     <ClCompile Include="..\..\mpz\sqrt.c" />

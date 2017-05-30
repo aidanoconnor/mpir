@@ -31,26 +31,4 @@ const char * const mpir_version = _MSC_MPIR_VERSION;
 const char * const mpir_version = VERSION;
 #endif
 
-const char* gmp_version_func(int* version, int* version_minor, int* version_patch_level)
-{
-	if (version != NULL)
-		*version = __GNU_MP_VERSION;
-	if (version_minor != NULL)
-		*version_minor = __GNU_MP_VERSION_MINOR;
-	if (version_patch_level != NULL)
-		*version_patch_level = __GNU_MP_VERSION_PATCHLEVEL;
 
-	return gmp_version;
-}
-
-const char* mpir_version_func(int* version, int* version_minor, int* version_patch_level)
-{
-	if (version != NULL)
-		*version = __MPIR_VERSION;
-	if (version_minor != NULL)
-		*version_minor = __MPIR_VERSION_MINOR;
-	if (version_patch_level != NULL)
-		*version_patch_level = __MPIR_VERSION_PATCHLEVEL;
-
-	return mpir_version;
-}
